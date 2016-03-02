@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ads Box</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_crash">toast_crash</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_file_chooser">FileChooserActivity</string>
+    <string name="fileSize">File Size</string>
+    <string name="currentDir">Current Dir</string>
+    <string name="title_activity_login">Adyass</string>
+    <string name="time_repeating">time</string>
+    <string name="duration">duration</string>
+
+</resources>

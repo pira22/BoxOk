@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<LinearLayout
+        android:id="@+id/lay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web view"
+            android:id="@+id/btn_web_view" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="video view"
+            android:id="@+id/btn_video_view" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="texture view"
+            android:id="@+id/btn_texture_view" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:id="@+id/btn_pause" />
+
+
+
+
+
+
+    </LinearLayout>-->
+
+    <TextureView
+        android:id="@+id/textureViewMain"
+        android:layout_width="@dimen/texture_view_width"
+        android:layout_height="@dimen/texture_view_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--
+     <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webViewmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/lay" />
+
+    <VideoView android:id="@+id/videoview2"
+        android:layout_width="@dimen/texture_view_width"
+        android:layout_height="@dimen/texture_view_height"
+        android:layout_centerInParent="true"
+        /> -->
+
+</RelativeLayout>
